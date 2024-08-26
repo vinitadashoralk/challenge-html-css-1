@@ -1,15 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: sans-serif;
   line-height: 1.5;
 }
 .border-black {
   border: 2px solid black;
+  margin: 50px auto;
+  width: 50%;
 }
 .heading {
   text-transform: uppercase;
   font-weight: bold;
   background-color: #f7f7f7;
   text-align: center;
+  padding: 10px;
 }
 .price {
   font-size: 24px;
@@ -20,6 +27,7 @@ body {
   font-size: 12px;
   font-weight: bold;
   color: #777;
+  margin-bottom: 10px;
 }
 .more-info {
   color: black;
@@ -31,9 +39,15 @@ body {
 .details-title {
   font-weight: bold;
   text-transform: uppercase;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 .details-list {
   list-style: square;
+  margin-left: 20px;
+}
+.details-list li {
+  margin-bottom: 10px;
 }
 .add-cart {
   background-color: black;
@@ -42,8 +56,11 @@ body {
   font-size: 15px;
   text-transform: uppercase;
   cursor: pointer;
+  width: 100%;
+  padding: 10px;
 }
 .add-cart:hover {
   color: #000;
   background-color: #fff;
+  border-top: 2px solid black;
 }
